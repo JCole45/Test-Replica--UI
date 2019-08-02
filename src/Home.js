@@ -43,7 +43,7 @@ class Home extends Component {
                         <div margin="80px">I would like to {this.state.holder}  </div>
 
 
-                        <Tabs  >
+                        <Tabs onActive={(value)=> this.setState({holder: Action[value]}) } >
 
                             <Tab title="Buy" margin="90px"   >
                                 <form className="Home-content">
