@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Grommet, FormField, TextArea, Button, Grid, TextInput } from 'grommet';
 import CssBaseline from '@material-ui/core/CssBaseline';
+import whitelogo4 from'./images/whitelogo4.png'
+
 
 class Login extends Component {
 
@@ -9,14 +11,16 @@ class Login extends Component {
             <Grommet>
                 <CssBaseline />
                 <div className="Login">
+                <div><img src={whitelogo4} style={{height:'250px', width:'300px', margin:'30px'}}/></div>
+
 
 
                     <form>
-                    <FormField label="Email" name="email">
+                    <FormField label="Email" name="email" style={{width:350}}>
                         <TextInput placeholder="" />
                     </FormField>
 
-                    <FormField label="Password" name="password">
+                    <FormField label="Password" name="password" style={{width:350}}>
                         <TextInput placeholder="" />
                     </FormField>
                     

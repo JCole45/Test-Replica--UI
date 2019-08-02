@@ -1,0 +1,11 @@
+.speech-bubble cite {
+    position: absolute;
+    bottom: -2rem;
+    left: 4.5rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: black;
+  }
+  
